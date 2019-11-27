@@ -91,6 +91,7 @@ public class User {
 		return true;
 	}
 
+	//FIXME: Test only builder method, would move it elsewhere (to a test fixture)
 	public static User from(Integer id, String name, LocalDate birthDate) {
 		User user = new User();
 		user.setId(id);
